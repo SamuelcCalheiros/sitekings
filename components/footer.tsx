@@ -11,7 +11,7 @@ export function Footer() {
             <Link href="/" className="inline-flex items-center gap-2">
               <Scissors className="w-6 h-6 text-primary" />
               <span className="font-[family-name:var(--font-heading)] text-xl text-foreground tracking-wider">
-                CORTE & ESTILO
+                KING BARBEARIA
               </span>
             </Link>
             <p className="text-muted-foreground text-sm mt-2">
@@ -53,7 +53,7 @@ export function Footer() {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Corte & Estilo Barbearia
+              © {new Date().getFullYear()} KING BARBEARIA
             </p>
             <p className="text-muted-foreground text-xs mt-1">
               Todos os direitos reservados.
