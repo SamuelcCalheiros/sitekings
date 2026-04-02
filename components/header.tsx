@@ -27,19 +27,7 @@ export function Header() {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-muted-foreground hover:text-primary transition-colors font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
 
-          </nav>
 
           {/* Mobile Menu Button */}
           <button
@@ -65,11 +53,7 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
-                <a href="https://instagram.com/kingbarbeariia" target="_blank" rel="noopener noreferrer">
-                  Instagram
-                </a>
-              </Button>
+              
             </div>
           </nav>
         )}

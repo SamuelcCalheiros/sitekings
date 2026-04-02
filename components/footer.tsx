@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Scissors, Instagram, Facebook, MessageCircle } from "lucide-react"
+import { Scissors, Instagram, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
@@ -22,22 +22,13 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex justify-center gap-4">
             <a 
-              href="https://instagram.com/corteeestilo" 
+              href="https://instagram.com/kingbarbeariia" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://facebook.com/corteeestilo" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-              aria-label="Facebook"
-            >
-              <Facebook className="w-5 h-5" />
             </a>
             <a 
               href="https://wa.me/5511999999999" 
