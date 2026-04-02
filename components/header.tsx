@@ -23,7 +23,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2">
             <Scissors className="w-8 h-8 text-primary" />
             <span className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl text-foreground tracking-wider">
-              CORTE & ESTILO
+              KING BARBEARIA
             </span>
           </Link>
 
@@ -39,8 +39,8 @@ export function Header() {
               </Link>
             ))}
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="https://instagram.com/corteeestilo" target="_blank" rel="noopener noreferrer">
-                Agendar
+              <a href="https://instagram.com/kingbarbeariia" target="_blank" rel="noopener noreferrer">
+                Instagram
               </a>
             </Button>
           </nav>
@@ -70,8 +70,8 @@ export function Header() {
                 </Link>
               ))}
               <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
-                <a href="https://instagram.com/corteeestilo" target="_blank" rel="noopener noreferrer">
-                  Agendar
+                <a href="https://instagram.com/kingbarbeariia" target="_blank" rel="noopener noreferrer">
+                  Instagram
                 </a>
               </Button>
             </div>

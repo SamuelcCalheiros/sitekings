@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/barbershop-interior.jpg"
-          alt="Interior da Barbearia Corte & Estilo"
+          alt="Interior da Barbearia KING BARBEARIA"
           fill
           className="object-cover"
           priority
@@ -24,7 +24,7 @@ export function Hero() {
             BEM-VINDO À
           </p>
           <h1 className="font-[family-name:var(--font-heading)] text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 tracking-wider text-balance">
-            CORTE & ESTILO
+            KING BARBEARIA
             <span className="block text-primary">BARBEARIA</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
