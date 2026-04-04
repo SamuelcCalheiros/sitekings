@@ -3,28 +3,22 @@ import { Instagram } from "lucide-react"
 
 const barbers = [
   {
-    name: "Carlos Silva",
-    role: "Barbeiro Master",
+    name: "Diego Diniz",
     image: "/images/barber-1.jpg",
     instagram: "@carlos.barber",
-    instagramUrl: "https://instagram.com/carlos.barber",
-    description: "10+ anos de experiência em cortes clássicos e modernos."
+    instagramUrl: "https://instagram.com/dinizbarber01",
   },
   {
-    name: "Rafael Santos",
-    role: "Barbeiro Especialista",
+    name: "Andrey Araújo",
     image: "/images/barber-2.jpg",
-    instagram: "@rafa.cuts",
-    instagramUrl: "https://instagram.com/rafa.cuts",
-    description: "Especialista em degradês e desenhos artísticos."
+    instagram: "@dreybarbero",
+    instagramUrl: "https://instagram.com/dreybarbero",
   },
   {
-    name: "Fernando Costa",
-    role: "Barbeiro Senior",
+    name: "João Mendes",
     image: "/images/barber-3.jpg",
-    instagram: "@fernando.barber",
-    instagramUrl: "https://instagram.com/fernando.barber",
-    description: "Mestre em barba e tratamentos faciais premium."
+    instagram: "@joaomendesbarbeiro",
+    instagramUrl: "https://instagram.com/joaomendesbarbeiro",
   },
 ]
 
