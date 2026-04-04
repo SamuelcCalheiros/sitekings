@@ -56,7 +56,8 @@ export function Location() {
               <div>
                 <h3 className="text-foreground font-semibold text-lg mb-1">Horário de Funcionamento</h3>
                 <p className="text-muted-foreground">
-                  Segunda a Sexta: 10:00 - 19:00<br />
+                  Segunda a Quarta: 10:00 - 20:00<br />
+                  Quinta e Sexta: 09:00 - 20:00<br/>
                   Sábado: 09:00 - 17:00<br />
                   Domingo e Feriados: Fechado
                 </p>

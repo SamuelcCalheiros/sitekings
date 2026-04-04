@@ -5,18 +5,21 @@ const barbers = [
   {
     name: "Diego Diniz",
     image: "/images/barber-1.jpg",
+    unidade: "Londrina-Centro",
     instagram: "@carlos.barber",
     instagramUrl: "https://instagram.com/dinizbarber01",
   },
   {
     name: "Andrey Araújo",
     image: "/images/barber-2.jpg",
+    unidade: "Londrina-Centro",
     instagram: "@dreybarbero",
     instagramUrl: "https://instagram.com/dreybarbero",
   },
   {
     name: "João Mendes",
     image: "/images/barber-3.jpg",
+    unidade: "Londrina-Centro",
     instagram: "@joaomendesbarbeiro",
     instagramUrl: "https://instagram.com/joaomendesbarbeiro",
   },
@@ -63,12 +66,6 @@ export function Team() {
                 <h3 className="font-[family-name:var(--font-heading)] text-2xl text-foreground tracking-wide">
                   {barber.name}
                 </h3>
-                <p className="text-primary font-medium text-sm mt-1">
-                  {barber.role}
-                </p>
-                <p className="text-muted-foreground text-sm mt-3">
-                  {barber.description}
-                </p>
                 
                 {/* Instagram Link */}
                 <a 
