@@ -6,14 +6,13 @@ import { useState } from "react"
 
 const filiais = [
   {
-    id: "paulista",
-    name: "Unidade Paulista",
-    address: "Av. Paulista, 1000 - Sala 301",
-    neighborhood: "Bela Vista, Sao Paulo - SP",
-    cep: "CEP: 01310-100",
-    phone: "(11) 99999-1111",
-    email: "paulista@kingbarbearia.com.br",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975904633!2d-46.65342708447757!3d-23.564611684680994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1635959481019!5m2!1spt-BR!2sbr",
+    id: "londrina-centro",
+    name: "Unidade Centro - Londrina",
+    address: "R. Araguaia 340",
+    neighborhood: "Jardim Agari, Londrina - PR",
+    cep: "CEP: 86025-720",
+    phone: "(43) 99666-3535",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.917415487565!2d-51.180182699999996!3d-23.2824503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb458ec58e47f7%3A0x80136032137c250c!2sKing%20Barbearia%20em%20Londrina%20-%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1776209662689!5m2!1spt-BR!2sbr",
     hours: {
       weekdays: "09:00 - 20:00",
       saturday: "09:00 - 18:00",
@@ -22,14 +21,13 @@ const filiais = [
     barbers: 8
   },
   {
-    id: "moema",
-    name: "Unidade Moema",
-    address: "Av. Ibirapuera, 2500 - Loja 15",
-    neighborhood: "Moema, Sao Paulo - SP",
-    cep: "CEP: 04028-001",
-    phone: "(11) 99999-2222",
-    email: "moema@kingbarbearia.com.br",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5029123456789!2d-46.66123456789012!3d-23.59123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a123456789%3A0xabcdef123456789!2sAv.%20Ibirapuera%2C%20Moema%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1635959481019!5m2!1spt-BR!2sbr",
+    id: "londrina- zn",
+    name: "Unidade Zona Norte - Londrina",
+    address: "R. Tanganica 770",
+    neighborhood: "Ouro Verde, Londrina - PR",
+    cep: "CEP: 86080-000",
+    phone: "(43) 99674-4337",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.917415487565!2d-51.180182699999996!3d-23.2824503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb458ec58e47f7%3A0x80136032137c250c!2sKing%20Barbearia%20em%20Londrina%20-%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1776209805111!5m2!1spt-BR!2sbr",
     hours: {
       weekdays: "10:00 - 21:00",
       saturday: "10:00 - 19:00",
@@ -38,14 +36,13 @@ const filiais = [
     barbers: 7
   },
   {
-    id: "pinheiros",
-    name: "Unidade Pinheiros",
-    address: "Rua dos Pinheiros, 800 - Terreo",
-    neighborhood: "Pinheiros, Sao Paulo - SP",
-    cep: "CEP: 05422-001",
-    phone: "(11) 99999-3333",
-    email: "pinheiros@kingbarbearia.com.br",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8029123456789!2d-46.68123456789012!3d-23.56123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5789abcdef12%3A0x123456789abcdef!2sR.%20dos%20Pinheiros%2C%20Pinheiros%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1635959481019!5m2!1spt-BR!2sbr",
+    id: "cambe",
+    name: "Unidade Cambé",
+    address: "R. Rio Iguaçu 815",
+    neighborhood: "Jardim Santo Amaro, Cambé - PR",
+    cep: "CEP: 86185-090",
+    phone: "(43)99917-2985",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.917415487565!2d-51.180182699999996!3d-23.2824503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb458ec58e47f7%3A0x80136032137c250c!2sKing%20Barbearia%20em%20Londrina%20-%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1776209977685!5m2!1spt-BR!2sbr",
     hours: {
       weekdays: "09:00 - 21:00",
       saturday: "09:00 - 20:00",
