@@ -12,7 +12,7 @@ const filiais = [
     neighborhood: "Jardim Agari, Londrina - PR",
     cep: "CEP: 86025-720",
     phone: "(43) 99666-3535",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.917415487565!2d-51.180182699999996!3d-23.2824503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb458ec58e47f7%3A0x80136032137c250c!2sKing%20Barbearia%20em%20Londrina%20-%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1776209662689!5m2!1spt-BR!2sbr",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.4489068699595!2d-51.1658749!3d-23.299466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb45c96444a423%3A0x25e2d9a1cb7fb99!2sKing%20Barbearia%20em%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1776211502193!5m2!1spt-BR!2sbr",
     hours: {
       weekdays: "09:00 - 20:00",
       saturday: "09:00 - 18:00",
@@ -42,7 +42,7 @@ const filiais = [
     neighborhood: "Jardim Santo Amaro, Cambé - PR",
     cep: "CEP: 86185-090",
     phone: "(43)99917-2985",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.917415487565!2d-51.180182699999996!3d-23.2824503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb458ec58e47f7%3A0x80136032137c250c!2sKing%20Barbearia%20em%20Londrina%20-%20Zona%20Norte!5e0!3m2!1spt-BR!2sbr!4v1776209977685!5m2!1spt-BR!2sbr",
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.6101901379852!2d-51.24208469999999!3d-23.2936097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb5b9064cfaf8b%3A0x57ae625acd3e0398!2sKing%20Barbearia%20Camb%C3%A9%20%7C%20Especialista%20em%20Barba%20e%20Corte%20Masculino!5e0!3m2!1spt-BR!2sbr!4v1776211585482!5m2!1spt-BR!2sbr",
     hours: {
       weekdays: "09:00 - 21:00",
       saturday: "09:00 - 20:00",
