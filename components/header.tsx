@@ -38,11 +38,6 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="https://www.instagram.com/kingbarbeariia/" target="_blank" rel="noopener noreferrer">
-                Agendar
-              </a>
-            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -69,11 +64,6 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
-                <a href="https://instagram.com/corteeestilo" target="_blank" rel="noopener noreferrer">
-                  Agendar
-                </a>
-              </Button>
             </div>
           </nav>
         )}
