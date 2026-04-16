@@ -68,7 +68,7 @@ export function Location() {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mt-4" />
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            3 unidades estrategicamente localizadas em Sao Paulo para sua comodidade.
+            3 unidades estrategicamente localizadas em Londrina e região para sua comodidade.
           </p>
         </div>
 
@@ -153,7 +153,6 @@ export function Location() {
                 <h4 className="text-foreground font-semibold text-lg mb-1">Contato</h4>
                 <p className="text-muted-foreground">
                   {selectedFilial.phone}<br />
-                  {selectedFilial.email}
                 </p>
               </div>
             </div>
