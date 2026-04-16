@@ -250,7 +250,7 @@ export function Team() {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mt-4" />
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            Conheca os mestres por tras de cada corte perfeito. {barbers.length} profissionais em 3 unidades para melhor atende-lo.
+            Conheca os mestres por tras de cada corte perfeito.
           </p>
         </div>
 
